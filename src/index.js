@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import WeatherList from "./components/WeatherList";
 
 import "./styles.css";
 
 function WeatherApp() {
   return (
-    <div className="AWeatherApp">
-      WeatherApp
+    <div className="WeatherApp">
+      Weather App
+      <WeatherList />
     </div>
   );
 }
